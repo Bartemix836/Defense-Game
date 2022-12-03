@@ -1,0 +1,318 @@
+html { 
+    background: url('../img/Gamesmap.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+body{
+    margin: 0 0; 
+}
+@media (min-width :440px){
+    html { 
+        background: url('../img/Gamesmap.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+    body{
+        background-size: 100% 200%;
+    }
+    .main{
+    
+   
+        width: auto;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .banner{
+        position:relative;
+        top: -15px;
+        font-family: system-ui;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .title{
+        font-size: 40px;
+        font-family: 'Changa One', cursive;
+        color:black;
+        font-weight: bold;
+        -webkit-text-stroke: 0.5px white;
+    }
+    img{
+            height: 59px;
+            width: 59px;
+        }
+    .option1, .option2 , .option3{
+        font-size: 21px;
+    }
+    
+    .option1{
+        position: relative;
+        top: 0px;
+        text-align: center;
+        border: solid 2px black;
+        border-radius: 19px;
+        background-color: rgba(255, 255, 0, 0.596);
+        color:black;
+        font-weight: bold;
+        padding: 6px;
+        width: 150px;
+        
+    }
+    .option1:hover{
+        background-color: rgb(89, 90, 81);;
+        color:white;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .option2{
+        position: relative;
+        top:5px;
+        text-align: center;
+        border: solid 2px black;
+        border-radius: 19px;
+        background-color: rgba(255, 255, 0, 0.596);
+        color:black;
+        font-weight: bold;
+        padding: 6px;
+        width: 150px;
+        justify-content: space-between;
+    }
+    .option2:hover{
+        background-color: rgb(89, 90, 81);;
+        color:white;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .option3{
+        position: relative;
+        top: 10px;
+        text-align: center;
+        border: solid 2px black;
+        border-radius: 19px;
+        background-color: rgba(255, 255, 0, 0.596);
+        color:black;
+        font-weight: bold;
+        padding: 6px;
+        width: 150px;
+        justify-content: space-between;
+    }
+    .option3:hover{
+        background-color: rgb(89, 90, 81);
+        color:white;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    a:hover{
+        background-color: rgb(89, 90, 81);;
+        color:white;
+        font-size: 21px;
+        cursor: pointer;
+        
+        
+        
+    }
+    .rules{
+        background-image: linear-gradient(to right, #424242 , white);
+        border: solid 1px black;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        padding: 4px;
+        margin: 2,2;
+    }
+    .decribe{
+        padding: 0px;
+        display: flex;
+        font-size: large;
+        font-weight: bold;
+        text-align: justify;
+        
+    }
+    #start{
+        position: relative;
+        top: 10px;
+        text-align: center;
+        border: solid 2px black;
+        border-radius: 19px;
+        background-color: rgba(255, 255, 0, 0.596);
+        color:black;
+        font-weight: bold;
+        width: 150px;
+        justify-content: space-between;
+        font-size: 21px;
+    }
+    #start:hover{
+        background-color: rgb(89, 90, 81);
+        color:white;
+        cursor: pointer;
+    }
+}
+.main{
+    
+   
+    width: auto;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.banner{
+    position:relative;
+    top: -15px;
+    font-family: system-ui;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.title{
+    font-size: 55px;
+    font-family: 'Changa One', cursive;
+    color:black;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px white;
+}
+img{
+        height: 79px;
+        width: 73px;
+    }
+.option1, .option2 , .option3{
+    font-size: 21px;
+}
+
+.option1{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 0, 0.596);
+    color:black;
+    font-weight: bold;
+    padding: 6px;
+    width: 150px;
+    
+}
+.option1:hover{
+    background-color: rgb(89, 90, 81);;
+    color:white;
+    font-size: 23px;
+    cursor: pointer;
+}
+.option2{
+    position: relative;
+    top:5px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 0, 0.596);
+    color:black;
+    font-weight: bold;
+    padding: 6px;
+    width: 150px;
+    justify-content: space-between;
+}
+.option2:hover{
+    background-color: rgb(89, 90, 81);;
+    color:white;
+    font-size: 23px;
+    cursor: pointer;
+}
+.option3{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 0, 0.596);
+    color:black;
+    font-weight: bold;
+    padding: 6px;
+    width: 150px;
+    justify-content: space-between;
+}
+.option3:hover{
+    background-color: rgb(89, 90, 81);
+    color:white;
+    font-size: 23px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    background-color: rgb(89, 90, 81);;
+    color:white;
+    cursor: pointer;
+    
+    
+    
+}
+.rules{
+    background-image: linear-gradient(to right, #424242 , white);
+    border: solid 1px black;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 2,2;
+}
+.decribe{
+    padding: 0px;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+#start{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 0, 0.596);
+    color:black;
+    font-weight: bold;
+    width: 150px;
+    justify-content: space-between;
+    font-size: 21px;
+}
+#start:hover{
+    background-color: rgb(89, 90, 81);
+    color:white;
+    cursor: pointer;
+}

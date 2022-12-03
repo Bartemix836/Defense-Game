@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Defense Game</title>
+    
+    <script src="js/TowersDates.js"defer></script>
+    <script src="js/waypoints.js" defer></script>
+    <script src="js/classes/sprite.js"defer></script>
+    <script src="js/classes/towers.js"defer></script>
+    <script src="js/classes/enemy.js"defer></script>
+    <script src="js/classes/placementile.js"defer></script>
+    <script src="js/classes/projectile.js"defer></script>
+    <script src="js/index.js" defer></script>
+
+</head>
+<body>
+    <div class = "container">
+        <canvas></canvas>
+
+        <div id="GameOver">Game Over</div>
+            </br id= "break">
+            <div class="buttons">
+                <button id="playagain"><a href="about.html" target="_blank">Play Again</a></button>
+                <button id="quitgame">Quit Game</button>
+                <p class = "endresult"></p>
+            </div>
+               
+        <div class="window">
+            <div class="windowgradient"></div>
+            <div class="HeartandCount">
+                <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" fill="currentColor" >
+                <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 
+                3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+                </svg>
+                </div>
+                <div id="hearts">10</div>   
+            </div>
+            
+            
+
+
+            <div class="Coins">  
+                <div class="score1">
+                    <div class="score-text"> Score: </div> 
+                    <div class="result">0</div>
+                </div> 
+                <div class="icon-gold">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path d="M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875z" />
+                        <path d="M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.283 8.283 0 001.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.285 8.285 0 001.897 1.384C6.809 12.164 9.315 12.75 12 12.75z" />
+                        <path d="M12 16.5c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 001.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 001.897 1.384C6.809 15.914 9.315 16.5 12 16.5z" />
+                        <path d="M12 20.25c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 001.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 001.897 1.384C6.809 19.664 9.315 20.25 12 20.25z" />
+                    </svg>
+                </div>
+                <div id="money">100</div> 
+            </div>  
+        </div>
+                        
+    </div>  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
