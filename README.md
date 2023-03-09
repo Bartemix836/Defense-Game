@@ -1,6 +1,6 @@
 # Tower Defense Game
 
-A simple tower defense browser game created with JavaScript in an object-oriented way.
+A simple tower defense browser game created with JavaScript in an object-oriented way
 
 
  
